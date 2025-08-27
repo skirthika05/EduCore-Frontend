@@ -7,7 +7,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 
 import Loading from "../../components/loading/Loading";
-import { UserData } from "../../Context/UserContext";
+import { UserData } from "../../context/UserContext";
 
 const CourseDescription = ({ user }) => {
   const params = useParams();
