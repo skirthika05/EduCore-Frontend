@@ -9,7 +9,7 @@ import Verify from './pages/auth/Verify';
 import Footer from './components/footer/Footer';
 import About from './pages/about/About';
 import Account from './pages/account/Account';
-import { UserData } from './Context/UserContext';
+import { UserData } from './context/UserContext';
 import Loading from './components/loading/Loading';
 import Courses from './pages/courses/Courses';
 import CourseDescription from './pages/coursedescription/CourseDescription';
