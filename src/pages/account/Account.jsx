@@ -5,7 +5,7 @@ import { IoMdLogOut } from "react-icons/io";
 
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
-import { UserData } from "../../Context/UserContext";
+import { UserData } from "../../context/UserContext";
 
 const Account = ({ user }) => {
   const { setIsAuth, setUser } = UserData();
