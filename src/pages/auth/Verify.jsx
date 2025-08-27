@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./auth.css"
 import { Link, useNavigate } from 'react-router-dom'
-import { UserData } from '../../Context/UserContext';
+import { UserData } from '../../context/UserContext';
 
 const Verify = () => {
     const [otp,setOtp]=useState("");
